@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%; 
+    height:50vh;
+    margin-top: 0px;
+}
+.topleft>img{
+    height: 10rem;
+    width: 10rem;
+    padding-left: 12vw;
+}
+
+.topright{
+    width: 50%;
+    height:50vh;
+    overflow: hidden;
+}
+.topright>img{
+    height: 100%;
+    margin-left: 200px;
+    background: white;
+
+}
+.section1{
+  max-height: 100vh;
+  color: #d6a27a ;
+  font-size: medium;
+  font-weight: 500;
+}
+.section1 h1{
+    font-size: 2rem;
+    color: black;
+}
+.section2 h1{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.section2{
+   padding: 73px;
+}
+.section2 h1{
+    font-size: 2.5rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 12px 0;
+}
+.highlighted{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+  margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join{
+    margin-left: 25%;
+    width: 50%;
+    height: 15vh;
+    border: solid rgba(191,191,191,255) 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    padding: 10px;
+    background-color: rgba(218,203,232,255);
+}
+.join>h2{
+    margin-bottom:5px ;
+}
+.join:hover{
+    background-color: #ff7de9;
+}
+
+#clock{
+    text-decoration: solid;
+    font-weight: 700;
+}
+.section3 table{
+    width:100%;
+    margin-bottom: 140px;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+  text-align: center;
+}
+.section3 table td{
+ border-bottom: 2px solid black;
+}
+.section3 h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.section3{
+   padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
